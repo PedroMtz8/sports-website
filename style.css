@@ -261,19 +261,19 @@ ul {
         display: block;
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         background: #2f3640;
         height: 100%;
         padding: 30px;
-        transform: translateX(400px);
-        transition: transform .5s ease-in-out;
         opacity: .9;
-        padding-top: 70px;
+        transform: translatex(-400px);
+        transition: transform .5s ease-in-out;
+        padding-top: 40px;
     }
 
     .nav-main ul.nav-menu.show{
-        transform: translateX(20px);
-        padding-top: 70px;
+        transform: translateX(-20px);
+        padding-top: 40px;
     }
 
     .nav-main ul.menu-right {
@@ -299,6 +299,7 @@ ul {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    
 }
 
 @media (max-width: 500px) {
