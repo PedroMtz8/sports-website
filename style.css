@@ -413,6 +413,7 @@ ul {
     
     .mas-deportes {
         grid-template-columns: 1fr;
+        margin-top: 90px;
     }
 
     .mas-deportes img {
@@ -428,7 +429,7 @@ ul {
     /* SOCIAL */
 
 .links a i {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .imagen-principal .text-principal {
